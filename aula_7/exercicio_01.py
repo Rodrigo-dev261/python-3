@@ -1,0 +1,6 @@
+nome = input('Qual e o seu nome? ')
+# print('Praser em te conhecer {:=^20}'.format(nome))
+# print('Praser em te conhecer {:>20}!'.format(nome))
+# print('Praser em te conhecer {:<20}!'.format(nome))
+print('Praser em te conhecer {:^20}!'.format(nome),end='>>>')
+print('Praser em te conhecer {:<20}!'.format(nome))
