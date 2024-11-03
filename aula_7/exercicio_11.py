@@ -1,6 +1,6 @@
 largura = float(input('Qual a largura da sua parede em metros: ')) 
 altura = float(input('Qual e a altura de sua parede em metros: '))
 area = largura * altura
-cobertura_tinta = 2 * 2
-tinta_necessaria = area / cobertura_tinta
-print('Para pintar sua parede voce ira precisar de {:.1f} litros de tinta.'.format(tinta_necessaria))
+cobertura = area / 2 
+print('Sua parede tem a dimensao de {} X {} e sua area e de {:.1f}m².'.format(largura, altura, area))
+print('Para pintar essa parede voce vai precisasr de {}L de tinta.'.format(cobertura))
